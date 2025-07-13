@@ -7,7 +7,7 @@ const Guide = () => {
     <section className="flexCenter flex-col">
       <div className="padding-container
       max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
+        <Image src="/projects/travel-app/camp.svg" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
           We are here for you
         </p>
@@ -21,7 +21,7 @@ const Guide = () => {
       <div className="flexCenter max-container relative w-full
       border-2 border-blue-500">
         <Image 
-        src="/boat.png" 
+        src="/projects/travel-app/boat.png" 
         alt="boat"
         width={1440}
         height={50} 
@@ -31,7 +31,7 @@ const Guide = () => {
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3
         rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
-          src="/meter.svg"
+          src="/projects/travel-app/meter.svg"
           alt="meter"
           width={16}
           height={158}

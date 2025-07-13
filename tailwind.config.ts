@@ -30,11 +30,11 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        'bg-img-1': "url('/projects/travel-app/img-1.png')", // <-- ADDED PREFIX
+        'bg-img-2': "url('/projects/travel-app/img-2.png')", // <-- ADDED PREFIX
+        'feature-bg': "url('/projects/travel-app/feature-bg.png')", // <-- ADDED PREFIX
+        pattern: "url('/projects/travel-app/pattern.png')", // <-- ADDED PREFIX
+        'pattern-2': "url('/projects/travel-app/pattern-bg.png')", // <-- ADDED PREFIX
       },
       screens: {
         xs: '400px',
